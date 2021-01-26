@@ -3,8 +3,8 @@ import math
 import random
 
 
-def func(x: int):
-    return xxx - 6xx + 2*x + 12 
+def func(x):
+    return x*x*x - 6*x*x + 2*x + 12 
 
 
 def create_random_points(numPoints: int):
@@ -30,7 +30,7 @@ def set_func_graph():
 
 #Code starts here
 
-x_points, y_points = create_random_points(1000)
+x_points, y_points = create_random_points(2000)
 x_graph, y_graph = set_func_graph()
 
 plt.title("Grafico")
